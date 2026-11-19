@@ -1,0 +1,38 @@
+{
+  "name": "agy-hud",
+  "version": "1.2.0",
+  "description": "Zero-dependency cyberpunk TrueColor HUD for Google Antigravity CLI (agy) with live SQLite nanosecond TPS, real-time server compaction threshold tracking, quota bars, and a reactive cyber-cat mascot.",
+  "type": "module",
+  "main": "agy-hud.mjs",
+  "bin": {
+    "agy-hud": "./agy-hud.mjs"
+  },
+  "scripts": {
+    "test": "node test/test_hud.mjs",
+    "preview": "node test/test_hud.mjs --preview"
+  },
+  "keywords": [
+    "antigravity",
+    "agy",
+    "google-antigravity",
+    "statusline",
+    "hud",
+    "gemini",
+    "cli",
+    "tps",
+    "zero-dependency"
+  ],
+  "author": "Laidh (liuqiaodongdong)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuqiaodongdong/agy-hud.git"
+  },
+  "homepage": "https://github.com/liuqiaodongdong/agy-hud#readme",
+  "bugs": {
+    "url": "https://github.com/liuqiaodongdong/agy-hud/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
